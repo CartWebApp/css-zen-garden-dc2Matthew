@@ -1,1 +1,27 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.intro > header > h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: flex-start;
+}
+.intro > header > h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: flex-end;
+}
+
+.summary > article > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.page-wrapper   {
+    background-color: lightgoldenrodyellow;
+}
+
