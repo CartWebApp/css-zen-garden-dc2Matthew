@@ -15,7 +15,7 @@
 header  {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .page-wrapper   {
@@ -26,6 +26,50 @@ header  {
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
- align-items: flex-start;
+ align-items: center;
 }
 
+#firstname  {
+    background-color: blanchedalmond;
+}
+
+.preamble   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+        }
+ul {
+    background-color: whitesmoke;
+}
+
+a:hover {
+    background-color: azure;
+    font-size: 15px;
+}
+
+a:active {
+    background-color: tan;
+}
+
+* {
+    border: 1px solid burlywood;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    border: 1px solid burlywood;
+    background-color: lightgoldenrodyellow;
+}
+
+p   {
+    background-color: lightgoldenrodyellow(228, 228, 228);
+}
