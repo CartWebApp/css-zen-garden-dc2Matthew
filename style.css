@@ -29,7 +29,7 @@ header  {
  align-items: center;
 }
 
-#firstname  {
+#css-zen-garden  {
     background-color: blanchedalmond;
 }
 
@@ -72,4 +72,8 @@ h1 {
 
 p   {
     background-color: lightgoldenrodyellow(228, 228, 228);
+}
+
+.main-supporting    {
+    align-self: flex-start;
 }
