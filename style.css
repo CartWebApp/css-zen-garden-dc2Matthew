@@ -1,4 +1,8 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+#ccs-zen-garden {
+    background-image: url(Screenshot\ 2024-10-31\ 104051.png);
+    background-size: 100%;
+}
 .intro > header > h1 {
     display: flex;
     flex-direction: row;
@@ -7,7 +11,7 @@
 }
 .intro > header > h2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -15,7 +19,7 @@
 header  {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .page-wrapper   {
@@ -25,12 +29,20 @@ header  {
 .summary {
  display: flex;
  flex-direction: column;
- justify-content: flex-start;
+ justify-content: flex-end;
  align-items: center;
 }
 
-#css-zen-garden  {
-    background-color: blanchedalmond;
+#design-archives  {
+    background-color: rgba(160, 148, 130, 0.749);
+}
+
+#design-selection  {
+    background-color: rgba(160, 148, 130, 0.749)
+}
+
+#zen-resources  {
+    background-color: rgba(160, 148, 130, 0.749);
 }
 
 .preamble   {
@@ -48,7 +60,7 @@ div {
     align-items: center
         }
 ul {
-    background-color: whitesmoke;
+    background-color: rgba(160, 148, 130, 0.749)
 }
 
 a:hover {
@@ -74,6 +86,22 @@ p   {
     background-color: lightgoldenrodyellow(228, 228, 228);
 }
 
-.main-supporting    {
-    align-self: flex-start;
+h1, h2, h3  {
+    background-color: rgba(203, 189, 166, 0.749);
+    border: 1px solid gray;
+}
+
+p::after    {
+    content: "-remember this";
+}
+
+.wrapper    {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.design-selection   {
+    display: flex;
+    flex-direction: ;
 }
