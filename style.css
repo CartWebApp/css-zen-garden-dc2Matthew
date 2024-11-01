@@ -1,8 +1,4 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-#ccs-zen-garden {
-    background-image: url(Screenshot\ 2024-10-31\ 104051.png);
-    background-size: 100%;
-}
 .intro > header > h1 {
     display: flex;
     flex-direction: row;
@@ -103,5 +99,12 @@ p::after    {
 
 .design-selection   {
     display: flex;
-    flex-direction: ;
 }
+
+a[href] {
+    background-color: rgba(162, 154, 141, 0.749);
+  }
+  
+  p[lang] {
+    background-color: salmon;
+  }
