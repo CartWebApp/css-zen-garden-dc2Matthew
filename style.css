@@ -108,3 +108,136 @@ a[href] {
   p[lang] {
     background-color: salmon;
   }
+
+  a:visited {
+    color: rgb(243, 255, 192);
+  }
+
+  ::selection {
+    color: white;
+    background: rgba(160, 148, 130, 0.749);
+  }
+
+    :root {
+        background-color: rgba(160, 148, 130, 0.749);
+        padding: 10px;
+      }
+
+      p:only-of-type {
+        background-color: lightgray;
+      }
+      
+      li:only-of-type {
+        color: salmon;
+      }
+      
+      b:only-of-type {
+        color: green;
+      }
+     
+      div:nth-of-type(2) {
+        background: lightgray;
+      }
+      div:nth-of-type(4) {
+        background: lightgray;
+      }
+    
+      li:nth-of-type(2) {
+        background: lightgoldenrodyellow(162, 154, 141, 0.749);
+      }
+      
+      :nth-of-type(3) {
+        background: lightgoldenrodyellow;
+      }
+
+      li:nth-last-of-type(1) {
+        background: lightgray;
+      }
+      
+      p:nth-last-of-type(1) {
+        background: light;
+      }
+      p:nth-last-child(1) {
+        background-color: rgb(255, 255, 255);
+      }
+
+      :nth-child(4) {
+        background-color: lightgray;
+      }
+      
+      
+      div:nth-child(2) {
+        background-color: lightgrey;
+      }
+      
+      
+      li:nth-child(2) {
+        background-color: lightgray;
+      }
+
+      p {
+        color: black;
+      }
+      
+      :not(p) {
+        color: rgb(90, 84, 59);
+      }
+
+      a:link {
+        background-color: rgba(247, 227, 199, 0.749);
+      }
+
+      h1:last-of-type {
+  background-color: rgb(242, 243, 239);
+}
+
+h2:last-of-type {
+  background-color: rgb(241, 241, 236);
+}
+p:last-child {
+    background-color: lightgoldenrodyellow(185, 185, 175);
+  }
+  
+  h3:last-child {
+    background-color: rgb(153, 153, 91);
+  }
+ 
+  li:first-of-type {
+    background-color: lightgrey;
+  }
+
+  p::first-line {
+    font-size: 17px;
+    text-decoration: underline; 
+    background-color: rgb(174, 202, 174);
+  }
+
+  p::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: #473657;
+  }
+
+  p:first-child {
+    background-color: rgb(255, 255, 255);
+  }
+
+  p::before {
+    content: "Steps -";
+  }
+
+  div[class^="benefits"] {
+    background: rgb(148, 127, 125);
+  }
+
+  div[class$="participation"] {
+    background: rgb(148, 127, 125);
+  }
+
+  div[class*="main supporting"] {
+    background: rgb(148, 127, 125);
+  }
+
+ 
+
+  
